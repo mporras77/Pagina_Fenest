@@ -1,62 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>FENEST RAMAS</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="estilos.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <link rel="shortcut icon" href="images/logo.png" />
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>  
-<body>
- <form class="formulario">
-    
-    <h1>Registrate</h1>
-     <div class="contenedor">
-     
-     <div class="input-contenedor">
-         <i class="fas fa-user icon"></i>
-         <input type="text" placeholder="Nombre Completo">
-         
-         </div>
-         
-         <div class="input-contenedor">
-         <i class="fas fa-envelope icon"></i>
-         <input type="text" placeholder="Correo Electronico">
-         
-         </div>
-         
-         <div class="input-contenedor">
-        <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="Contraseña">
-         
-         </div>
-         <input type="submit" value="Registrate" class="button">
-         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-         <p>¿Ya tienes una cuenta?<a class="link" href="login.html">Iniciar Sesion</a></p>
-     </div>
-    </form>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>REGISTRO FENEST</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Registrar</header>
+      <div class="progress-bar">
+        <div class="step">
+          <p>Paso 1</p>
+          <div class="bullet">
+            <span>1</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Paso 2</p>
+          <div class="bullet">
+            <span>2</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Paso 3</p>
+          <div class="bullet">
+            <span>3</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Fin</p>
+          <div class="bullet">
+            <span>4</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+      </div>
+      <div class="form-outer">
+        <form action="#">
+          <div class="page slide-page">
+            <div class="field">
+              <div class="label">Nombre Completo</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Apellidos</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <button class="firstNext next">Siguiente</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="title">Información de Contacto</div>
+            <div class="field">
+              <div class="label">Correo Electronico</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Número de Telefono</div>
+              <input type="Number">
+            </div>
+            <div class="field btns">
+              <button class="prev-1 prev">Atrás</button>
+              <button class="next-1 next">Siguiente</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="field">
+              <div class="label">Fecha de Nacimiento</div>
+              <input type="datetime-local">
+            </div>
+            <div class="field">
+              <div class="label">Genero</div>
+              <select>
+                <option>Masculino</option>
+                <option>Femenino</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-2 prev">Atrás</button>
+              <button class="next-2 next">Siguiente</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="title">Datos de Login</div>
+            <div class="field">
+              <div class="label">Usuario</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Clave</div>
+              <input type="password">
+            </div>
+            <div class="field btns">
+              <button class="prev-3 prev">Atrás</button>
+              <button class="submit">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+
+  </body>
 </html>
