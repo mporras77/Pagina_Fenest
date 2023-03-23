@@ -46,7 +46,7 @@ nav{
 }
 
 body {
-     background-image: radial-gradient( circle 767px at 10.2% 22.1%,rgb(240, 230, 140) 0%, rgb(255, 255, 255) 90% );
+     background-image: radial-gradient( circle 767px at 10.2% 22.1%rgb(255, 255, 255) 90% );
      color: #666666;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
@@ -126,7 +126,7 @@ header{
 	margin-bottom: 10px;
 	color: #000;
 	font-weight: 600;
-	font-size: 30px;
+	font-size: 24px;
 }
 
 .descripcion {
@@ -232,7 +232,7 @@ header{
 
 .submenu{
 	position: absolute;
-	background: #e0d8b0 ;
+	background: #DFC38A ;
 	width: 120%;
 	visibility: hidden;
 	opacity: 0;
@@ -242,7 +242,7 @@ header{
 .submenu li a{
 	display: block;
 	padding: 15px;
-	color: #fff;
+	color: black;
 	font-family: 'Open sans';
 	text-decoration: none;
 }
@@ -663,6 +663,9 @@ button {
      
 }
 
+
+
+
 .titlepage span {
      background: #042431;
      display: block;
@@ -719,7 +722,7 @@ button {
 }
 
 .infotmacion .titlepage p {
-     
+ 
      margin-left: 15px;
      color: #292e39;
      font-size: 17px;
