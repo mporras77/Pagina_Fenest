@@ -5,7 +5,7 @@
     $usuario = "root"; //en ste caso root por ser localhost
     $password = "";  //contrase単a por si tiene algun servicio de hosting 
     $servidor = "localhost"; //localhost por lo del xampp
-    $basededatos ="login_register_bd.sql"; //nombre de la base de datos
+    $basededatos ="fenestor_2wp"; //nombre de la base de datos
 
 
 //por si hay errors de conexion un mensaje "Error con el servidor de la Base de datos".

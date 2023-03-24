@@ -35,6 +35,7 @@
                     <!--Login-->
                     <form action="php/login_usuario_be.php"  method ="GET" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
+                        
                         <input type="text" placeholder="Correo Electronico" name="correo" required>
                         <input type="password" placeholder="Contraseña" name="contrasena" required>
                         <button>Entrar</button>

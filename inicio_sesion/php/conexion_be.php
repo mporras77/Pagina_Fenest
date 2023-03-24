@@ -1,6 +1,6 @@
 <?php
 
-$conexion = mysqli_connect("localhost", "root", "", "login_register_bd.sql");
+$conexion = mysqli_connect("localhost", "root", "", "fenestor_2wp");
 
 // Verificar si la conexión fue exitosa
 if (!$conexion) {
@@ -24,3 +24,4 @@ if (!$conexion) {
 }
 
 ?>
+

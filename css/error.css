@@ -1,0 +1,83 @@
+/* Reset de estilos para el body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para los títulos */
+  h1, h2, h3 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para las imágenes */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilo para el dinosaurio de Google */
+  .dinosaur {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    background-image: url('dinosaurio.png'); /* Reemplaza 'dinosaurio.png' con el nombre de tu imagen */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  
+  /* Estilo para el texto que acompaña al dinosaurio */
+  .main p {
+    text-align: center;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

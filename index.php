@@ -67,16 +67,16 @@
                                  <li><a href="FENEST.php">¿QUÉ ES FENEST?</a>
                                  <ul class="submenu">
                                        <li><a href="FENEST2.php">¿Que es la FENEST?</a></li>
-                                       <li><a href="#">Direccion Nacional</a></li>
+                                       <li><a href="error.php">Direccion Nacional</a></li>
                                        <li><a href="info.php">PLAN 2020-2025</a></li>
-                                       <li><a href="#">Comite Ejecutivo Nacional Scout</a></li>
+                                       <li><a href="error.php">Comite Ejecutivo Nacional Scout</a></li>
                                        <li><a href="ucus.php">UCUS</a></li>
                                        <li><a href="noticias/?view=blog">NOTICIAS</a></li>
                                     </ul>
                                  </li>
                                  <li><a href="programas.php">PROGRAMA JUVENIL SCOUT</a></li>
                                  <li><a href="adistramientos.php">Adiestramiento Scout</a>
-                                    <li><a href="contact.php">Contacto FENEST</a></li>
+                                 <li><a href="contact.php">Contacto FENEST</a></li>
                               </li>
                               <?php
                               if(!$ISSessionActual){

@@ -4,7 +4,10 @@ class Database {
 	public static $con;
 
 	function __construct(){
-		$this->user="fenestor_wp";$this->pass="Fenest.Ucus@2020";$this->host="Fenest.org";$this->ddbb="fenestor_2wp";
+		$this->user="root";
+		$this->pass="";
+		$this->host="localhost";
+		$this->ddbb="fenestor_2wp";
 	}
 
 	function connect(){
@@ -16,9 +19,19 @@ class Database {
 		if(self::$con==null && self::$db==null){
 			self::$db = new Database();
 			self::$con = self::$db->connect();
+			if(self::$con->connect_error) {
+				// Mostrar mensaje Swal de error si no se puede conectar a la base de datos
+				echo '<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.6/dist/sweetalert2.all.min.js"></script>';
+				echo '<script>Swal.fire({
+						icon: "error",
+						title: "Error",
+						text: "No se pudo conectar a la base de datos",
+						footer: "<a href>¿Necesitas ayuda?</a>"
+					})</script>';
+				die();
+			}
 		}
 		return self::$con;
 	}
-	
 }
 ?>
